@@ -1,0 +1,45 @@
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Home</title>
+
+		<link href="css/portal.css" rel="stylesheet">
+
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<script>
+            $(document).ready(function(){
+                $('body').mousemove(function(event)
+				{
+                    var posX = -(event.pageX + this.offsetLeft) / 20;
+                    var posY = -(event.pageY + this.offsetTop) / 20;
+ 
+                    document.body.style.backgroundPosition = posX + 'px ' + posY + 'px';
+                });    
+            });
+		</script>
+	</head>
+
+	<body>
+		<section id="content">
+
+			<p>
+				Example
+			</p>
+
+			<section class="nav">
+				<a href="#"><i class="fa fa-globe" aria-hidden="true"></i> Home</a>
+				<a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i> Log In</Inp></a>
+				<a href="#"><i class="fa fa-user" aria-hidden="true"></i> Sign In</a>
+		</section>
+
+
+			<section class="footer">
+				© Copyright 2021 Paweku, Wszystkie prawa zastrzeżone.
+			</section>
+		</section>
+	</body>
+</html>
